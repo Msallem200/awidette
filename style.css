@@ -265,3 +265,81 @@ header.sticky{
     margin-right: 50px;
     align-items: center;
 }
+.mid-text{
+    text-align: center;
+}
+.mid-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:rgba(28, 189, 44, 1);
+}
+.mid-text h2{
+    font-size: var(--h2-font);
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+.row{
+    position: relative;
+    padding: 10px 35px 40px;
+    background-color: #ffffff;
+    border-radius: 3rem;
+}
+
+.row img{
+    width: 300px;
+    height: 300px;
+    transition: transform .50s ease;
+    cursor: pointer;
+}
+
+.row h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.row p{
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-bottom: 1.1rem;
+}
+.in-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.in-text .price h6{
+    font-size: 17px;
+    font-weight: 600;
+}
+.in-text .s-btnn a{
+    display: inline-block;
+    padding: 9px 23px;
+    background: rgba(28, 189, 44, 1);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3rem;
+    color: #ffffff;
+    transition: all .50s ease;
+
+}
+.top-icon{
+    position: absolute;
+    top:30px;
+    left: 35px;
+}
+.top-icon i{
+    font-size:22px;
+}
+
+.img{
+    margin-left: 70px;
+}
+
